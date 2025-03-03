@@ -107,4 +107,21 @@ Face-Mask-Detection/
 
 pip install opencv-python numpy imutils tensorflow scikit-learn matplotlib
 
-Run The Pythone files
+**How to Run**
+
+Download the Dataset: Place the with_mask and without_mask folders in the dataset/ directory.
+Preprocess the Data: Run the preprocessing script:
+bash
+
+python preprocess_dataset.py
+Train the Model: Train the CNN model:
+bash
+
+python train_mask_model.py
+Test on Images: Detect masks in a single image:
+bash
+
+python detect_mask_image.py
+Test on Video: Detect masks in real-time video:
+bash
+python detect_mask_video.py
