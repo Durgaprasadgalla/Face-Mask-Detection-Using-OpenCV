@@ -72,7 +72,7 @@ This technology can be widely implemented for public safety, healthcare, and sur
 
 
 
-Dataset Link : https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset
+Dataset Link : https://drive.google.com/drive/folders/19Qc5tIlNbOaCjaxOkBYoWuccxsiLlynx?usp=sharing
 
 
 Face Detector Weights: https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel
