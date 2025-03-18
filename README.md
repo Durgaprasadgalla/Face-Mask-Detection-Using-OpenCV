@@ -78,8 +78,7 @@ Dataset Link : https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-imag
 Face Detector Weights: https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel
 
 Face-Mask-Detection/
-├── dataset/  
-# Your dataset folder
+├── dataset/  # Your dataset folder
 │   ├── with_mask/   
 # Images of faces with masks
 │   └── without_mask/  
