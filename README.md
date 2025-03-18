@@ -72,7 +72,7 @@ This technology can be widely implemented for public safety, healthcare, and sur
 
 
 
-Dataset Link : https://drive.google.com/drive/folders/19Qc5tIlNbOaCjaxOkBYoWuccxsiLlynx?usp=sharing
+Dataset Link : [click the here Go to drive and download the dataset](https://drive.google.com/drive/folders/19Qc5tIlNbOaCjaxOkBYoWuccxsiLlynx?usp=drive_link)
 
 
 Face Detector Weights: https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel
