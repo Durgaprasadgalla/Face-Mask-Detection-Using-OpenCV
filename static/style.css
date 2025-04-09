@@ -1,19 +1,26 @@
 body {
+    background-image: url("https://consteril.com/wp-content/uploads/2020/03/Covid-19-Pandemic-Face-Mask-.jpg"); /* Relative path; adjust as needed */
+    /* OR url("C:/Users/Sridh/Desktop/Face-Mask-Detection/Covid-19-Pandemic-Face-Mask-.webp") with forward slashes */
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Fallback color */
     margin: 0;
     padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
-    color: #333;
+    color: white;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
 }
 
 .section {
@@ -21,7 +28,8 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 45%;
+    width: 45%; /* Default width for larger screens */
+    margin-bottom: 20px; /* Space between sections when stacked */
 }
 
 button, input[type="submit"] {
@@ -43,4 +51,21 @@ button:hover, input[type="submit"]:hover {
     margin-top: 20px;
     border: 2px solid #ddd;
     border-radius: 5px;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center-align sections */
+    }
+
+    .section {
+        width: 90%; /* Full width on smaller screens for better readability */
+        margin-bottom: 20px; /* Consistent spacing between stacked sections */
+    }
+
+    body {
+        padding: 10px; /* Reduce padding on small screens */
+    }
 }
